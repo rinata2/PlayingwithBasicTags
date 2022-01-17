@@ -1,0 +1,116 @@
+html {
+    background-color: #ffffff;
+    font-size: 15px;/* the is the default size for ow
+    */
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0% auto 0% auto;
+/*  margin-top: 0%;
+    margin-right: auto;
+    margin-bottom: 0%;
+    margin-left: auto;*/
+    height: 100wh;
+    width: 100vw;
+    overflow-x: hidden;
+    background-color: #eeebe6;
+}
+/*
+h2 {
+    margin: 20px;
+    border: 10px solid red;
+    padding: 20%;
+    height: 200px;
+    width: 600px;
+}*/
+
+h1, 
+h2, 
+h3 {
+    font-family: "Roboto", Open Sans, sans-serif;
+    color: #2a2a2a;
+    /*some properties*/
+}
+
+p,
+li {
+    font-family: "Roboto Condensed", sans-serif;
+    color: #2a2a2a;
+    font-size: 1.5em;
+    line-height: 1.5;
+    /* So it is saying 1.5= the root font-size*/
+    /*em- relative to the size of an"m" from the font you are using for this element.     */
+}
+    
+h1 {
+    font-size: 4rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h2,h3 {
+    font-size: 3rem;
+    text-align: center;
+}
+p {
+    margin: 0 6rem 3rem 6rem;
+    text-align: center;
+}
+header, 
+nav, 
+footer, 
+section {
+    padding: 1%;
+}
+header {
+background: linear-gradient(
+    to bottom right,
+    rgba(219, 127, 46, 0.25),
+    rgba(219, 127, 46, 1)),
+    url ("./assets/tiger.jpeg");
+}
+
+nav {
+    height: 3.2em;
+}
+nav ul {
+    /* Commas denote that we want to style "this" AND "that".No commas state that we want to style an element WITHIN another element. */
+display: flex;
+}
+nav li {/*moblie-friendly*/
+    list-style-type: none;
+    text-align: center;
+    flex: 1;
+    /*flex  */
+}
+nav a {
+    font-size: 2rem;
+    height: 3rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #2a2a2a;
+  }
+  nav a:hover {
+    color: #ffffff;
+    transition: all 1s ease;/*1s= 1 second, all=all ov the hover, ease=smoothe transition
+    */
+  }
+
+#images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+ img {
+     width: 50em;
+     height: 50em;
+     margin: 10px;
+     object-fit: cover;
+ }
+footer {
+    background-color: #291f09;
+    height: 28vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

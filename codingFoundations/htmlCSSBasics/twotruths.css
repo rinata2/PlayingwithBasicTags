@@ -1,0 +1,46 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: :#FFFDD0;
+}
+
+.truth{
+    border: 10px solid lightblue;
+    color: lightskyblue;
+    width: 80%;
+    margin: 28px;
+}
+    .truth:hover {
+        border: 10px sold green;
+        color: purple;
+
+    }
+.lie:hover {
+
+}
+h2, p{
+    padding: 0%;
+    text-align: center
+}
+p {
+    font-size:18px ;
+
+}
+h1 {
+    text-align: center;
+}
+header, 
+nav, 
+footer, 
+section {
+    padding: 1%;
+}
+footer {
+    background-color: hotpink;
+    height: 28vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input {
+    border: purple;
+}
